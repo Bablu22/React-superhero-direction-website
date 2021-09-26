@@ -11,3 +11,13 @@ font-style: italic;
 .banner-right img{
     width: 100%;
 }
+
+@media screen and (max-width:640px) {
+    .banner-left h1{
+        font-size: 40px;
+        text-align: initial;
+    }
+    .banner-left{
+        padding: 20px;
+    }
+}
