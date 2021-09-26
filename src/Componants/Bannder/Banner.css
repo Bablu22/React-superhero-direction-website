@@ -1,0 +1,13 @@
+.banner-left{
+    padding: 50px;
+}
+
+.banner-left h1{
+font-size: 60px;
+text-align: start;
+font-style: italic;
+}
+
+.banner-right img{
+    width: 100%;
+}
