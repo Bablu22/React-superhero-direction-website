@@ -14,7 +14,7 @@ const Developer = (props) => {
                         <h6>Designation: {designation}</h6>
                         <h6>Location: {location}</h6>
                         <h6>Salary: ${salary}</h6>
-                        <span>Linkdin:</span><a className="text-decoration-none" href={profile}>{profile}</a>
+                        <span>Linkedin:</span><a className="text-decoration-none" href={profile}>{profile}</a>
                     </div>
                     <div className="card-footer border-0 bg-white">
                         <button onClick={event => props.handleEvent(event, props.developer)} className="btn btn-warning px-5 py-1">{element}Add Developer</button>

@@ -20,7 +20,7 @@ const DevelopersArea = () => {
     let salary = 0;
 
     const handleEvent = (event, developer) => {
-        // const newDeveloper = [...selecteDeveloper, developer]
+        
         const select = [...selecteDeveloper, developer]
         setSelectDeveloper(select);
 
