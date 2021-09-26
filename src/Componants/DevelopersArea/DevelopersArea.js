@@ -37,7 +37,8 @@ const DevelopersArea = () => {
     return (
         <div className="py-5">
             <h2 className="py-5 fw-bold fs-1 mt-5">Developers</h2>
-            <div className="">
+            <h3>{money}Estimeted Budget: $25,000</h3>
+            <div className="p-3">
                 <div className="row">
                     <div className="col-md-9">
                         <div className="row row-cols-1 row-cols-md-3 g-2 ms-3 developer">
@@ -54,11 +55,10 @@ const DevelopersArea = () => {
                     </div>
                     <div className="col-md-3">
                         <div>
-                            <div className="bg-dark rounded text-white p-3 mb-4">
-                                <h2 className="bg-danger p-2 fst-italic rounded">Developer List</h2>
+                            <div className="bg-dark rounded text-white p-3  mb-4">
+                                <h3 className="bg-danger p-2 fst-italic rounded">Developer List</h3>
                                 <div className="text-start p-3">
                                     <h4>{element}Total Developer: {selecteDeveloper.length} </h4>
-                                    <h5>{money}Budget: $10,000</h5>
                                     <h5>{dollar}Total Salary: {salary}</h5>
                                 </div>
                             </div>
